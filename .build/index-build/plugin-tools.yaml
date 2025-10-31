@@ -1,0 +1,47 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "Toasty-arm64-apple-macosx26.0-debug.module": ["<Toasty-arm64-apple-macosx26.0-debug.module>"]
+  "main": ["<Toasty-arm64-apple-macosx26.0-debug.module>"]
+  "test": ["<Toasty-arm64-apple-macosx26.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Toasty.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Configuration/ToastAppearance.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Configuration/ToastBehavior.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Configuration/ToastyConfiguration.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/PassthroughWindow.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/RootView.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Toast.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/ToastManager.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/ToastsView.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Toasty.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/ErrorToastView.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/HUDToastView.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/SuccessToastView.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/WarningToastView.swift"]
+    outputs: ["/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Toasty.build/sources"]
+    description: "Write auxiliary file /Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Toasty.build/sources"
+
+  "/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<Toasty-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Modules/Toasty.swiftmodule"]
+    outputs: ["<Toasty-arm64-apple-macosx26.0-debug.module>"]
+
+  "C.Toasty-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Configuration/ToastAppearance.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Configuration/ToastBehavior.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Configuration/ToastyConfiguration.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/PassthroughWindow.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/RootView.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Toast.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/ToastManager.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/ToastsView.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Toasty.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/ErrorToastView.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/HUDToastView.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/SuccessToastView.swift","/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/WarningToastView.swift","/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Toasty.build/sources"]
+    outputs: ["/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Modules/Toasty.swiftmodule"]
+    description: "Compiling Swift Module 'Toasty' (13 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","Toasty","-emit-dependencies","-emit-module","-emit-module-path","/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Modules/Toasty.swiftmodule","-output-file-map","/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Toasty.build/output-file-map.json","-parse-as-library","-incremental","@/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Toasty.build/sources","-I","/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.13","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/nickrogers/DEV/Packages/Toasty/.build/index-build/arm64-apple-macosx/debug/Toasty.build/include/Toasty-Swift.h","-swift-version","5","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","toasty"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/","/Users/nickrogers/DEV/Packages/Toasty/Package.swift","/Users/nickrogers/DEV/Packages/Toasty/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

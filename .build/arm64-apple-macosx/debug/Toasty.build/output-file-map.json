@@ -1,0 +1,96 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/master.swiftdeps"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Configuration/ToastAppearance.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastAppearance.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastAppearance.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastAppearance~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastAppearance.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastAppearance.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Configuration/ToastBehavior.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastBehavior.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastBehavior.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastBehavior~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastBehavior.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastBehavior.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Configuration/ToastyConfiguration.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastyConfiguration.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastyConfiguration.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastyConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastyConfiguration.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastyConfiguration.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/PassthroughWindow.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/PassthroughWindow.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/PassthroughWindow.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/PassthroughWindow~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/PassthroughWindow.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/PassthroughWindow.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/RootView.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/RootView.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/RootView.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/RootView~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/RootView.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/RootView.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Toast.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/Toast.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/Toast.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/Toast~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/Toast.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/Toast.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/ToastManager.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastManager.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastManager.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastManager.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastManager.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/ToastsView.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastsView.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastsView.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastsView.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ToastsView.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Toasty.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/Toasty.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/Toasty.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/Toasty~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/Toasty.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/Toasty.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/ErrorToastView.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ErrorToastView.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ErrorToastView.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ErrorToastView~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ErrorToastView.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/ErrorToastView.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/HUDToastView.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/HUDToastView.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/HUDToastView.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/HUDToastView~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/HUDToastView.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/HUDToastView.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/SuccessToastView.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/SuccessToastView.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/SuccessToastView.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/SuccessToastView~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/SuccessToastView.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/SuccessToastView.dia"
+  },
+  "/Users/nickrogers/DEV/Packages/Toasty/Sources/Toasty/Views/WarningToastView.swift": {
+    "dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/WarningToastView.d",
+    "object": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/WarningToastView.swift.o",
+    "swiftmodule": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/WarningToastView~partial.swiftmodule",
+    "swift-dependencies": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/WarningToastView.swiftdeps",
+    "diagnostics": "/Users/nickrogers/DEV/Packages/Toasty/.build/arm64-apple-macosx/debug/Toasty.build/WarningToastView.dia"
+  }
+}
