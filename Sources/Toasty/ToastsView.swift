@@ -80,6 +80,7 @@ internal struct ToastsView: View {
                 isExpanded.toggle()
             }
         }
+        .padding(.top, isExpanded ? 0 : toastManager.configuration.topPadding)
         .ignoresSafeArea()
         .frame(maxHeight: .infinity, alignment: alignment)
         .animation(toastManager.configuration.animation(), value: isExpanded)
