@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import UIKit
 
 /// Pre-built HUD-style toast view (Apple-like)
 public struct HUDToastView: View {
