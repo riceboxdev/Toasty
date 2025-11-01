@@ -1,0 +1,15 @@
+{
+  "originHash" : "7e2e86df7e1e9a8f10219c512013fba11dd53c88203b18b59d3aa29e32789732",
+  "pins" : [
+    {
+      "identity" : "toasty",
+      "kind" : "localSourceControl",
+      "location" : "/Users/nickrogers/DEV/Packages/Toasty",
+      "state" : {
+        "branch" : "main",
+        "revision" : "70b7efeff03ef2690f0725edd43094255919e1c7"
+      }
+    }
+  ],
+  "version" : 3
+}

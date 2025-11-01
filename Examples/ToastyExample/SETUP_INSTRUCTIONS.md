@@ -1,10 +1,30 @@
 # Quick Setup Guide for Toasty Example App
 
-## Problem: "Cannot preview in this file" Error
+## 🎉 Quick Start - Use the Pre-Configured Project
+
+**The easiest way:** A fully configured Xcode project is already available!
+
+Simply open it:
+```bash
+open Examples/ToastyExample.xcodeproj
+```
+
+Then:
+1. Select "iPhone 16" simulator (or any iOS 17+ device)
+2. Press ⌘+R to build and run
+3. Navigate through examples and test the features
+
+**Done!** No additional setup required. ✅
+
+---
+
+## Manual Setup (if needed)
+
+### Problem: "Cannot preview in this file" Error
 
 This error occurs because the example files need to be part of an Xcode project or scheme to be built and previewed.
 
-## Solution: Create an Xcode Project
+### Solution: Create an Xcode Project
 
 ### Step-by-Step Instructions
 
@@ -48,7 +68,7 @@ This error occurs because the example files need to be part of an Xcode project 
    - Click "Finish"
 
 7. **Build and Run:**
-   - Select a simulator (iPhone 15 Pro recommended)
+   - Select a simulator (iPhone 16 recommended)
    - Click Run (⌘+R) or Product → Run
 
 8. **Now Previews Work:**

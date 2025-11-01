@@ -147,10 +147,10 @@ struct CustomToastsView: View {
                     let appearance = ToastAppearance(
                         foregroundColor: .white,
                         backgroundColor: .blue,
+                        padding: EdgeInsets(top: 16, leading: 20, bottom: 16, trailing: 20),
                         backgroundShape: .roundedRectangle(cornerRadius: 12),
                         shadowColor: .blue.opacity(0.5),
-                        shadowRadius: 10,
-                        padding: EdgeInsets(top: 16, leading: 20, bottom: 16, trailing: 20)
+                        shadowRadius: 10
                     )
                     
                     toastManager.add(
@@ -162,8 +162,8 @@ struct CustomToastsView: View {
                 
                 Button("Disable Swipe to Dismiss") {
                     let behavior = ToastBehavior(
-                        swipeToDismissEnabled: false,
-                        autoDismissDuration: 5.0
+                        autoDismissDuration: 5.0,
+                        swipeToDismissEnabled: false
                     )
                     
                     toastManager.add(

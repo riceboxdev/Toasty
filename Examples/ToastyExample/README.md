@@ -4,6 +4,20 @@ This example app demonstrates all features of the Toasty toast notification syst
 
 ## Setup
 
+### Quick Start - Open the Xcode Project
+
+Simply open the pre-configured Xcode project:
+
+```bash
+open Examples/ToastyExample.xcodeproj
+```
+
+The project is already configured with:
+- ✅ Toasty package dependency linked
+- ✅ All example files included
+- ✅ Proper iOS 17.0 deployment target
+- ✅ iPhone 16 simulator ready to use
+
 ### Option 1: Add to Existing Xcode Project
 
 1. Open your Xcode project

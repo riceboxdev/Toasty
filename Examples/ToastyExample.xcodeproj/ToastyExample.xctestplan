@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "id": "configuration-id",
+      "name": "Configuration 1",
+      "options": {}
+    }
+  ],
+  "defaultOptions": {
+    "targetForRunningTests": {
+      "containerPath": "container:ToastyExample.xcodeproj",
+      "identifier": "1A0000170000000000000001",
+      "name": "ToastyExample"
+    }
+  },
+  "testTargets": [],
+  "version": 1
+}

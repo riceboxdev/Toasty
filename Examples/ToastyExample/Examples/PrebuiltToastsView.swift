@@ -37,8 +37,8 @@ struct PrebuiltToastsView: View {
                 
                 Button("Styled Success Toast") {
                     let appearance = ToastAppearance(
-                        tintColor: .green,
                         backgroundColor: .green.opacity(0.2),
+                        tintColor: .green,
                         backgroundShape: .roundedRectangle(cornerRadius: 20)
                     )
                     toastManager.add(
@@ -67,8 +67,8 @@ struct PrebuiltToastsView: View {
                 
                 Button("Error with Dismiss Button") {
                     let appearance = ToastAppearance(
-                        tintColor: .red,
-                        backgroundColor: .red.opacity(0.15)
+                        backgroundColor: .red.opacity(0.15),
+                        tintColor: .red
                     )
                     toastManager.add(
                         Toast(appearance: appearance) { id in
@@ -97,8 +97,8 @@ struct PrebuiltToastsView: View {
                 
                 Button("Yellow Warning Toast") {
                     let appearance = ToastAppearance(
-                        tintColor: .orange,
-                        backgroundColor: .orange.opacity(0.2)
+                        backgroundColor: .orange.opacity(0.2),
+                        tintColor: .orange
                     )
                     toastManager.add(
                         Toast(appearance: appearance) { id in

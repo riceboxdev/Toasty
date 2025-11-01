@@ -135,8 +135,8 @@ struct RealWorldScenariosView: View {
             )
             
             let appearance = ToastAppearance(
-                tintColor: currentIndex == steps.count ? .green : .blue,
-                backgroundColor: currentIndex == steps.count ? .green.opacity(0.2) : .blue.opacity(0.2)
+                backgroundColor: currentIndex == steps.count ? .green.opacity(0.2) : .blue.opacity(0.2),
+                tintColor: currentIndex == steps.count ? .green : .blue
             )
             
             toastManager.add(

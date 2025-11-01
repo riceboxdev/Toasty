@@ -80,7 +80,7 @@ internal struct ToastsView: View {
                 isExpanded.toggle()
             }
         }
-        .ignoresSafeArea()
+//        .ignoresSafeArea()
         .frame(maxHeight: .infinity, alignment: alignment)
         .animation(toastManager.configuration.animation(), value: isExpanded)
         .onChange(of: toasts.isEmpty) { oldValue, newValue in
