@@ -40,6 +40,7 @@ public struct ToastyConfiguration {
     /// Padding and margins
     public var horizontalPadding: CGFloat
     public var bottomPadding: CGFloat
+    public var topPadding: CGFloat
     
     /// Transitions
     public var insertionTransition: AnyTransition
@@ -62,6 +63,7 @@ public struct ToastyConfiguration {
         maxVisibleToasts: Int? = nil,
         horizontalPadding: CGFloat = 25,
         bottomPadding: CGFloat = 15,
+        topPadding: CGFloat = 15,
         insertionTransition: AnyTransition = .offset(y: 100),
         removalTransition: AnyTransition = .move(edge: .leading)
     ) {
@@ -81,6 +83,7 @@ public struct ToastyConfiguration {
         self.maxVisibleToasts = maxVisibleToasts
         self.horizontalPadding = horizontalPadding
         self.bottomPadding = bottomPadding
+        self.topPadding = topPadding
         self.insertionTransition = insertionTransition
         self.removalTransition = removalTransition
     }
