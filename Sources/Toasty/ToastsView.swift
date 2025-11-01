@@ -62,7 +62,7 @@ internal struct ToastsView: View {
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.bottom, toastManager.configuration.bottomPadding)
-                .padding(.top, toastManager.configuration.topPadding)
+//                .padding(.top, toastManager.configuration.topPadding)
                 .rotationEffect(.init(degrees: alignment == .top ? 0 : -180))
                 .onGeometryChange(for: CGFloat.self) {
                     $0.size.height
